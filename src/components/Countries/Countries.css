@@ -12,3 +12,16 @@
 .visited{
     background-color: #855858;
 }
+
+.flag-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+}
+
+.flag-container img{
+    width:64px;
+    height:36px;
+}
