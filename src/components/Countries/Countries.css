@@ -1,0 +1,10 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width:640px) {
+    .country-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
