@@ -24,4 +24,5 @@
 .flag-container img{
     width:64px;
     height:36px;
+    border-radius: 2px;
 }
